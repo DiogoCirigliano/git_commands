@@ -26,6 +26,8 @@ git add .: Adiciona todas as mudanças na pasta atual ao próximo commit.
 
 git add -A: Adiciona todas as mudanças na pasta atual ao próximo commit, incluindo arquivos removidos.
 
+git add $(git ls-files --modified) adiciona apenas os arquivos modificados.
+
 git commit -m "[mensagem]": Registra as mudanças adicionadas ao repositório Git com uma mensagem de commit.
 
 git commit -am "[mensagem]": Adiciona todas as mudanças e realiza um commit em um único comando.
